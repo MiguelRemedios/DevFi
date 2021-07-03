@@ -1,0 +1,37 @@
+{
+  "name": "bot-lofi",
+  "version": "1.0.0",
+  "description": "Discord bot for lo-fi music radio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "autostart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelRemedios/DevFi.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "bot",
+    "discord",
+    "discordjs",
+    "lofi"
+  ],
+  "author": "Red9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelRemedios/DevFi/issues"
+  },
+  "homepage": "https://github.com/MiguelRemedios/DevFi#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.0",
+    "nodemon": "^2.0.9",
+    "opusscript": "0.0.8",
+    "ytdl-core": "^4.8.3"
+  }
+}
